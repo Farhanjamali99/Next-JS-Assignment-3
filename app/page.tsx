@@ -8,15 +8,15 @@ const Home = () => {
     <Header />
     <main>
       <Hero />
-      <section id="About" className="py-20 container mx-auto">
-        <h2 className="text-3xl font-bold mb-4">About Us</h2>
-        <p className="text-lg">We are the leading Web-Developer service provider in the world.</p>
-        <p className="text-lg">We are serving 100 of clients per Mounth</p>
+      <section id="About" className="bg-yellow-200 py-20 container mx-auto">
+        <h2 className="text-3xl font-bold mb-4 text-center">About Us</h2>
+        <p className="text-lg text-center">We are the leading Web-Developer service provider in the world.</p>
+        <p className="text-lg text-center">We are serving 100 of clients per Mounth</p>
       </section>
-      <section id="Contact" className="py-20 container mx-auto">
-            <h2 className="text-3xl font-bold mb-4">Our Contact</h2>
-            <p className="text-lg">If you have any problem feel free to Contact.</p>
-            <p className="text-lg">Email: Hellodeveloper@gmail.com</p>
+      <section id="Contact" className="bg-gray-300 py-20 container mx-auto">
+            <h2 className="text-3xl font-bold mb-4 text-center">Our Contact</h2>
+            <p className="text-lg text-center">If you have any problem feel free to Contact.</p>
+            <p className="text-lg text-center">Email: Hellodeveloper@gmail.com</p>
       </section>
     </main>
     <Footer />

@@ -8,10 +8,10 @@ const AboutUs = () => {
             <Header/>
             
             <Hero/>
-            <section id="About" className="py-20 container mx-auto">
-        <h2 className="text-3xl font-bold mb-4">About Us</h2>
-        <p className="text-lg">We are the leading Web-Developer service provider in the world.</p>
-        <p className="text-lg">We are serving 100 of clients per Mounth</p>
+            <section id="About" className="bg-yellow-200 py-20 container mx-10">
+        <h2 className="text-3xl font-bold mb-4 text-center">About Us</h2>
+        <p className="text-lg text-center">We are the leading Web-Developer service provider in the world.</p>
+        <p className="text-lg text-center">We are serving 100 of clients per Mounth</p>
       </section>
             
         </div>
