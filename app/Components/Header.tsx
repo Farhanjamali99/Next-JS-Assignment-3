@@ -5,9 +5,9 @@ const Header = () => {
     <nav className="container mx-auto flex justify-between items-center">
       <Link href="/"><h1 className="hover:text:gray-300 text-xl font-bold ">Web-Developer</h1></Link>
       <ul className="flex space-x-4">
-      <li><a href="/" className="hover:text-blue-300">Home</a></li>
-        <li><a href="/About" className="hover:text-blue-300">About</a></li>
-        <li><a href="/Contact" className="hover:text-blue-300">Contact</a></li>
+      <li><Link href="/" className="hover:text-blue-300">Home</Link></li>
+        <li><Link href="/About" className="hover:text-blue-300">About</Link></li>
+        <li><Link href="/Contact" className="hover:text-blue-300">Contact</Link></li>
       </ul>
     </nav>
   </header>
